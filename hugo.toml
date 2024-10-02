@@ -1,0 +1,4 @@
+baseURL = 'https://karaage.games/'
+languageCode = 'en-us'
+title = 'Welcome to Karaage Labs. Play our games!'
+theme = 'PaperMod'

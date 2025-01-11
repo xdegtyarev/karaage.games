@@ -4,5 +4,16 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"build_systems":
+	[
+		{
+			"name": "Build Hugo",
+			"shell_cmd": "cd $project_path && hugo",
+		},
+		{
+			"name": "Build and Serve",
+			"shell_cmd": "cd $project_path && hugo && hugo server",
+		}
+	],
 }

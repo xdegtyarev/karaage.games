@@ -1,5 +1,43 @@
 baseURL = 'https://karaage.games/'
 languageCode = 'en-us'
-title = 'Welcome to Karaage Labs. Play our games!'
-theme = 'PaperMod'
+title = 'Karaage Labs. Play our games!'
+theme = 'archie'
 copyright = '© Karaage Labs. Berlin 2024-2025'
+
+[params]
+	mode="auto"
+	useCDN=false
+	# subtitle = "Hello, we're a team of indie game developers, based in Berlin. We make fun, simple and accessible games for all."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/xdegtyarev"
+[[params.social]]
+name = "TikTok"
+icon = "TikTok"
+url = "https://www.tiktok.com/@karaage.games"
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://instagram.com/karaage.games"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

@@ -13,7 +13,7 @@
 		},
 		{
 			"name": "Build and Serve",
-			"shell_cmd": "cd $project_path && hugo && hugo server",
+			"shell_cmd": "cd $project_path && hugo && hugo server -D",
 		}
 	],
 }

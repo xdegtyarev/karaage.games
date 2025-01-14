@@ -1,7 +1,7 @@
 baseURL = 'https://karaage.games/'
 languageCode = 'en-us'
 title = 'Karaage Labs. Play our games!'
-theme = 'archie'
+theme = 'karaage'
 copyright = '© Karaage Labs. Berlin 2024-2025'
 
 [params]

@@ -2,7 +2,7 @@ baseURL = 'https://karaage.games/'
 languageCode = 'en-us'
 title = 'Karaage Labs. Play our games!'
 theme = 'karaage'
-copyright = '© Karaage Labs. Berlin 2024-2025'
+copyright = '© Karaage Labs. Berlin.'
 
 [params]
 	mode="auto"
@@ -15,12 +15,16 @@ icon = "github"
 url = "https://github.com/xdegtyarev"
 [[params.social]]
 name = "TikTok"
-icon = "TikTok"
+icon = "tv"
 url = "https://www.tiktok.com/@karaage.games"
 [[params.social]]
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/karaage.games"
+[[params.social]]
+name = "YouTube"
+icon = "youtube"
+url = "https://www.youtube.com/@karaage_games"
 
 [[menu.main]]
 name = "Home"
